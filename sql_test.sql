@@ -8,6 +8,9 @@ SELECT count(id) AS "total_manager" FROM public.employees e
 -- 3rd
 SELECT e.name, e.salary FROM employees e 
 	WHERE department = 'Sales' OR department = 'Marketing'
+  
+-- alternative 3rd
+SELECT name, salary FROM employees e WHERE e.department IN ('Sales', 'Marketing');
 
 -- 4th
 SELECT avg(salary) FROM public.employees e
