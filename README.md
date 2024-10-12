@@ -26,6 +26,10 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Test
+ - SQL test can be found at `./sql_test.sql`
+ - Problem Solve test can be found at `./basic_test.ts`
+
 ## Project setup
 
 ```bash
